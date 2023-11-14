@@ -1,4 +1,5 @@
 let InitializeSignature = () => {
+  console.clear();
   var userAgent = navigator.userAgent.toLowerCase();
   var supported = /(chrome|firefox)/;
   if (supported.test(userAgent.toLowerCase())) {
